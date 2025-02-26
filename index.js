@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { Client, Collection, Events, GatewayIntentBits, MessageFlags } = require('discord.js');
 const { token } = require('./config.json');
-const welcome = require('./events/welcome');  // Importation de l'événement de bienvenue
+const welcome = require('./events/welcome'); 
 
 
 const client = new Client({
